@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - West Cape May DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the West Cape May Borough boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 2249,
+  "height": 1700,
+  "nodata": -999999,
+  "minMeters": -0.964,
+  "maxMeters": 9.208,
+  "meanMeters": 2.171,
+  "stdDevMeters": 1.106,
+  "minFeet": -3.16272965878,
+  "maxFeet": 30.209973753160003,
+  "webMercatorBounds": [
+    -8343617.082444,
+    4712025.937793001,
+    -8340189.606444,
+    4714616.737793
+  ],
+  "leafletBounds": [
+    [
+      38.9326379,
+      -74.9519875
+    ],
+    [
+      38.9507315,
+      -74.9211989
+    ]
+  ],
+  "files": {
+    "demCog": "west_cape_may_dem_5ft_cog.tif",
+    "hillshadeCog": "west_cape_may_hillshade_cog.tif",
+    "hillshadePng": "west_cape_may_hillshade.png",
+    "boundaryGeojson": "west_cape_may_boundary.geojson"
+  }
+}
